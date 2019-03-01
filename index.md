@@ -10,4 +10,7 @@ Aprendimos a usar la biblioteca sympy.
 ### Enlaces
   - [Página de python](https://www.python.org/)
   - [Google México](https://www.google.com.mx/)
-  
+
+
+## Problemas
+Maximizar \(2x-3y\) con \(x\) y \(y\)
