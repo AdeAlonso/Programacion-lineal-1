@@ -13,4 +13,4 @@ Aprendimos a usar la biblioteca sympy.
 
 
 ## Problemas
-Maximizar \(2x-3y\) con \(x\) y \(y\)
+Maximizar \(2x-3y\) con \(x\) y \(y\) $a+b$
