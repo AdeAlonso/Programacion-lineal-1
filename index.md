@@ -5,6 +5,6 @@ Voy a mostrar las increíbles cosas que estoy aprendiendo en el magnífico curso
 Aprendimos a usar la biblioteca sympy.
 
 ## Algunos enlaces interesanyes para programación lineal
- # Enlaces
+### Enlaces
   - [Página de python](www.python.org)
   - [Google México](www.google.com.mx)
