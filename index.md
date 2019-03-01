@@ -14,3 +14,6 @@ Aprendimos a usar la biblioteca sympy.
 
 ## Problemas
 Maximizar \(2x-3y\) con \(x\) y \(y\) $a+b$ $$a+b+c(sqrt(4))$$
+
+*Las soluciones se ven gráficamente así*
+![Solución](1.png)
