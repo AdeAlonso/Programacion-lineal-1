@@ -1,0 +1,62 @@
+
+#+title: Programación lineal 1
+#+author: Alonso Cruz Ortega 
+#+options: H:2
+
+* Teoría
+
+** Motivación
+
+El objetivo de esta materia es aprender a resolver cieto tipo de
+problemas de otimización utilizando métodos. Por suspuesto los métodos
+se justican.
+
+[[file:%20/Documentos/Alonso/lineal/2.png/]]
+
+
+** Ejemplos
+
+- El problema de la dieta
+- Optimización de lugares en una excurción
+- Escojer objetos óptimos para un campamento
+- El problema del flujo máximo
+
+** Convexidad
+
+Un conjuto \(X\) es *convexo* si para todos \(x,y\in X\) y \(t\in
+[0,1]\) se tiene que \(tx+(1-t)y\in X\).
+
+** Método gráfico
+
+** Método simplex
+
+* Herramientas computacionales
+
+** Emacs
+
+| C-x C-s | Salvar Archivo              |
+| C-x C-f | Abrir archivo               |
+| M-q     | Formatear parrafo           |
+| C-x d   | Editar directorios          |
+| C-g     | Salir de todo               |
+| C-x 1   | Regresa a una sola pantalla |
+| C-x 2   | Divide horizontalmente      |
+| C-x 3   | Divide verticalmente        |
+| M-w     | Copiar región               |
+|         |                             |
+
+** Git
+
+*** Git en la terminal
+
+*** Github
+
+** Python 
+
+*** El lenguaje python
+
+*** Jupyter
+
+
+** LaTex
+
