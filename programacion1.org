@@ -2,8 +2,9 @@
 #+title: Programación lineal 1
 #+author: Alonso Cruz Ortega 
 #+options: H:2
-
+#+latex_header: \usepackage{listings}
 * Teoría
+  SCHEDULED: <2019-04-29 lun>
 
 ** Motivación
 
@@ -43,7 +44,9 @@ Un conjuto \(X\) es *convexo* si para todos \(x,y\in X\) y \(t\in
 | C-x 2   | Divide horizontalmente      |
 | C-x 3   | Divide verticalmente        |
 | M-w     | Copiar región               |
-|         |                             |
+| C-c C-c | Correr bloques de código    |
+| C-y     | Pegar                       |
+| C-x b   | Cambiar buffer              |
 
 ** Git
 
@@ -54,9 +57,55 @@ Un conjuto \(X\) es *convexo* si para todos \(x,y\in X\) y \(t\in
 ** Python 
 
 *** El lenguaje python
+EL lenguaje python nos permite hacer operaciones.
+Por ejemplo:
+
+#+begin_src python :session
+2+2
+
+
+
+
+#+end_src
+
+#+RESULTS:
+: 4
+
+También podemos usar la biblioteca pulp.Por ejemplo
+encontrar el máximo de \(-4x+y\) sujeto a \(x+y\leq \frac{1}{2}\)
+
+#+begin_src python :session
+from pulp import *
+
+
+x = LpVariable("x", 0, 3)
+y = LpVariable("y", 0, 1)
+prob = LpProblem("myProblem", LpMinimize)
+
+prob += x + y <= 2
+
+prob += -4*x + y
+
+status = prob.solve()
+
+prob.solve(),value(x), value(prob.objective)
+
+
+#+end_src
+
+#+RESULTS:
+| 1 | 2.0 | -8.0 |
+
+
 
 *** Jupyter
 
 
+
 ** LaTex
+
+
+
+
+
 
